@@ -1,4 +1,7 @@
 git status : git에서의 현재 상태를 알려주는 명령어
+
 git add filename : git에 새로운 파일을 staging하는 명령어
 git add . : 모든 파일 staging
 git reset filename : staging 단계의 file을 다시 내리는 명령어 
+
+git commit -m "주석" : git remote 서버에 commit
