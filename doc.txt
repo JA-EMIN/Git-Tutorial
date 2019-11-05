@@ -4,4 +4,15 @@ git add filename : git에 새로운 파일을 staging하는 명령어
 git add . : 모든 파일 staging
 git reset filename : staging 단계의 file을 다시 내리는 명령어 
 
-git commit -m "주석" : git remote 서버에 commit
+git commit -m "주석" : git local 서버에 staging
+git push : git remot서버에 push
+
+git checkout -- filename : 수정 후 이전으로 되돌리는 명령어
+git pull : remote 서버의 최신 버전의 repository를 가져오는 명령어
+
+git log : log확인 명령어, log에서 hash값 확인 가능하고 log모드에서 나올때는 q 
+
+git reset --hard hash값 : 이전버전으로 돌아갈 때 사용하는 명령어로, --hard 옵션은 해당 버전으로 돌아가고
+                               그 이후 버전은 지우겟다는 의미, soft 옵션과 mixed option도 존재
+		       해당 버전으로 돌아간 후 remote 서버의 버전과 달라 push할 때 오류 생김
+git push -f : 강제로 push 진행
