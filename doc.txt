@@ -18,3 +18,7 @@ git reset --hard hash값 : 이전버전으로 돌아갈 때 사용하는 명령어로, --hard 옵션�
 git push -f : 강제로 push 진행
 
 git commit --amend : commit 후 내용이 잘못되었을 때 수정하는 명령어
+
+git branch : 현재 존재하는 branch를 보여줌
+git branch branchName : 새로운 branch를 만드는 명령어
+git checkout branchName : 다른 branch로 헤드를 이동
