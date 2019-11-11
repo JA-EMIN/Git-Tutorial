@@ -22,5 +22,9 @@ git commit --amend : commit 후 내용이 잘못되었을 때 수정하는 명령어
 git branch : 현재 존재하는 branch를 보여줌
 git branch branchName : 새로운 branch를 만드는 명령어
 git checkout branchName : 다른 branch로 헤드를 이동
-git merge branchName : branch를 통합하는 명령어
+git merge branchName : branch를 통합하는 명령어(일반적으로 Master로 이동후 수행)
 git branch -d branchName : branch를 삭제하는 명령어
+
+coflict 발생 시 해당 파일을 열어 필요한 부분만을 택하고 나머지 부분 삭제 후 add, commit, merge
+
+
