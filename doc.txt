@@ -27,4 +27,11 @@ git branch -d branchName : branch를 삭제하는 명령어
 
 coflict 발생 시 해당 파일을 열어 필요한 부분만을 택하고 나머지 부분 삭제 후 add, commit, merge
 
+git remote : 현재 원격저장소로 어떤것이 등록이 되어있는지 알 수 있는 명령어
+git remote show origin : 원격 저장소의 상세 정보를 알수있는 명령어
+git remote add name 저장소위치 : 특정한 원격저장소를 추가 
+git remote -v : 원격저장소의 전체 목록 확인
+git remote rename originName newName
+git remote rm name : 원격저장소 삭제
+
 
